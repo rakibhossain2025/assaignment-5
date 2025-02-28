@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment-5</title>
+    <!-- tailwind link  -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .poppins-regular {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+    </style>
+  </head>
+  <body class="bg-[#F4F7FF] poppins-regular">
+    <header
+      class="bg-white mb-5 rounded-2xl mt-4 w-[90%] flex justify-between mx-auto px-4 py-4 shadow-sm"
+    >
+      <div class="flex gap-3 items-center">
+        <img class="w-[50px]" src="./assets/logo.png" alt="" />
+        <h1 class="text-3xl">
+          Dev<span class="font-bold text-[#00303C]">Board</span>
+        </h1>
+      </div>
+      <div class="flex gap-4 items-center">
+        <div class="flex items-center gap-3 bg-[#F4F7FF] py-2 px-4 rounded-4xl">
+          <img src="./assets/checkbox.png" alt="" />
+          <h3 class="text-2xl font-bold">23</h3>
+        </div>
+        <div id="color-change">
+          <img src="./assets/theme-btn.png" alt="" />
+        </div>
+      </div>
+    </header>
+
+    <main class="mx-auto w-[90%] gap-4 grid grid-cols-10">
+      <div class="rounded-2xl p-4 col-span-8 bg-white">
+        <!-- top div left  -->
+        <div class="">
+          <div class="grid grid-cols-4 gap-2">
+            <!-- 1st div  -->
+            <div class="bg-[#F4F7FF] flex gap-3 p-4 items-center rounded-2xl">
+              <div class="rounded-full bg-white">
+                <img class="p-3" src="./assets/checkbox.png" alt="" />
+              </div>
+              <div>
+                <h4>Task Assigned</h4>
+                <h2 class="text-2xl font-bold">05</h2>
+              </div>
+            </div>
+            <!-- 2nd div  -->
+            <div
+              id="block-page"
+              class="col-span-2 bg-gradient-to-r from-[#3752FD] p-3 cursor-pointer via-[#6C7FFA] to-[#9BA8F8] rounded-2xl"
+            >
+              <div class="flex items-center gap-2">
+                <img class="w-20" src="./assets/board.png" alt="" />
+                <h3 class="text-2xl text-white font-bold">
+                  Discover Something New Today!
+                </h3>
+              </div>
+            </div>
+            <!-- 3rd div  -->
+            <div class="bg-[#F4F7FF] flex gap-3 p-4 items-center rounded-2xl">
+              <div class="rounded-full bg-white">
+                <img class="p-3" src="./assets/checkbox.png" alt="" />
+              </div>
+              <div>
+                <h4>wed ,</h4>
+                <h2 class="text-2xl font-bold">time</h2>
+              </div>
+            </div>
+          </div>
+          <div class="border-2 border-dashed border-gray-400 mt-5 mb-5"></div>
+
+          <!-- tasks -->
+          <div class="grid grid-cols-3 gap-3">
+            <div class="p-4 bg-[#F4F7FF] rounded-2xl">
+              <div class="space-y-3">
+                <h3 class="p-3 text-[#000000ce] rounded-2xl inline-block bg-white text-sm">ShopEase</h3>
+                <h4 class="text-2xl text-[#00303C] font-medium">Fix Mobile Button Issue</h4>
+                <textarea
+                  style="resize: none"
+                  placeholder="Debug using Chrome DevTools, ..."
+                  class="p-1 text-[#000000ce] text-lg rounded-lg bg-white border w-full border-gray-200 h-20 focus:outline-[#3752FD]"
+                ></textarea>
+                <div class="border-2 border-dashed border-gray-300  mb-1"></div>
+
+              </div>
+              <div class="flex items-center justify-between">
+                <div class="space-y-1 mt-1">
+                  <p class="text-sm text-[#00303C]">Deadline</p>
+                  <p class="text-[#00303C] text-xl font-semibold">21 March 2025</p>
+                </div>
+                <div>
+                  <button class="px-4 py-2 bg-[#3752FD] text-white rounded-xl text-md">
+                    Complete
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 bg-[#F4F7FF] rounded-2xl">
+              <div class="space-y-3">
+                <h3 class="p-3 text-[#000000ce] rounded-2xl inline-block bg-white text-sm">ShopEase</h3>
+                <h4 class="text-2xl text-[#00303C] font-medium">Fix Mobile Button Issue</h4>
+                <textarea
+                  style="resize: none"
+                  placeholder="Debug using Chrome DevTools, ..."
+                  class="p-1 text-[#000000ce] text-lg rounded-lg bg-white border w-full border-gray-200 h-20 focus:outline-[#3752FD]"
+                ></textarea>
+                <div class="border-2 border-dashed border-gray-300  mb-1"></div>
+
+              </div>
+              <div class="flex items-center justify-between">
+                <div class="space-y-1 mt-1">
+                  <p class="text-sm text-[#00303C]">Deadline</p>
+                  <p class="text-[#00303C] text-xl font-semibold">21 March 2025</p>
+                </div>
+                <div>
+                  <button class="px-4 py-2 bg-[#3752FD] text-white rounded-xl text-md">
+                    Complete
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 bg-[#F4F7FF] rounded-2xl">
+              <div class="space-y-3">
+                <h3 class="p-3 text-[#000000ce] rounded-2xl inline-block bg-white text-sm">ShopEase</h3>
+                <h4 class="text-2xl text-[#00303C] font-medium">Fix Mobile Button Issue</h4>
+                <textarea
+                  style="resize: none"
+                  placeholder="Debug using Chrome DevTools, ..."
+                  class="p-1 text-[#000000ce] text-lg rounded-lg bg-white border w-full border-gray-200 h-20 focus:outline-[#3752FD]"
+                ></textarea>
+                <div class="border-2 border-dashed border-gray-300  mb-1"></div>
+
+              </div>
+              <div class="flex items-center justify-between">
+                <div class="space-y-1 mt-1">
+                  <p class="text-sm text-[#00303C]">Deadline</p>
+                  <p class="text-[#00303C] text-xl font-semibold">21 March 2025</p>
+                </div>
+                <div>
+                  <button class="px-4 py-2 bg-[#3752FD] text-white rounded-xl text-md">
+                    Complete
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 bg-[#F4F7FF] rounded-2xl">
+              <div class="space-y-3">
+                <h3 class="p-3 text-[#000000ce] rounded-2xl inline-block bg-white text-sm">ShopEase</h3>
+                <h4 class="text-2xl text-[#00303C] font-medium">Fix Mobile Button Issue</h4>
+                <textarea
+                  style="resize: none"
+                  placeholder="Debug using Chrome DevTools, ..."
+                  class="p-1 text-[#000000ce] text-lg rounded-lg bg-white border w-full border-gray-200 h-20 focus:outline-[#3752FD]"
+                ></textarea>
+                <div class="border-2 border-dashed border-gray-300  mb-1"></div>
+
+              </div>
+              <div class="flex items-center justify-between">
+                <div class="space-y-1 mt-1">
+                  <p class="text-sm text-[#00303C]">Deadline</p>
+                  <p class="text-[#00303C] text-xl font-semibold">21 March 2025</p>
+                </div>
+                <div>
+                  <button class="px-4 py-2 bg-[#3752FD] text-white rounded-xl text-md">
+                    Complete
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 bg-[#F4F7FF] rounded-2xl">
+              <div class="space-y-3">
+                <h3 class="p-3 text-[#000000ce] rounded-2xl inline-block bg-white text-sm">ShopEase</h3>
+                <h4 class="text-2xl text-[#00303C] font-medium">Fix Mobile Button Issue</h4>
+                <textarea
+                  style="resize: none"
+                  placeholder="Debug using Chrome DevTools, ..."
+                  class="p-1 text-[#000000ce] text-lg rounded-lg bg-white border w-full border-gray-200 h-20 focus:outline-[#3752FD]"
+                ></textarea>
+                <div class="border-2 border-dashed border-gray-300  mb-1"></div>
+
+              </div>
+              <div class="flex items-center justify-between">
+                <div class="space-y-1 mt-1">
+                  <p class="text-sm text-[#00303C]">Deadline</p>
+                  <p class="text-[#00303C] text-xl font-semibold">21 March 2025</p>
+                </div>
+                <div>
+                  <button class="px-4 py-2 bg-[#3752FD] text-white rounded-xl text-md">
+                    Complete
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 bg-[#F4F7FF] rounded-2xl">
+              <div class="space-y-3">
+                <h3 class="p-3 text-[#000000ce] rounded-2xl inline-block bg-white text-sm">ShopEase</h3>
+                <h4 class="text-2xl text-[#00303C] font-medium">Fix Mobile Button Issue</h4>
+                <textarea
+                  style="resize: none"
+                  placeholder="Debug using Chrome DevTools, ..."
+                  class="p-1 text-[#000000ce] text-lg rounded-lg bg-white border w-full border-gray-200 h-20 focus:outline-[#3752FD]"
+                ></textarea>
+                <div class="border-2 border-dashed border-gray-300  mb-1"></div>
+
+              </div>
+              <div class="flex items-center justify-between">
+                <div class="space-y-1 mt-1">
+                  <p class="text-sm text-[#00303C]">Deadline</p>
+                  <p class="text-[#00303C] text-xl font-semibold">21 March 2025</p>
+                </div>
+                <div>
+                  <button class="px-4 py-2 bg-[#3752FD] text-white rounded-xl text-md">
+                    Complete
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-span-2 rounded-2xl p-4 bg-white">
+        <div class="space-y-2">
+          <div class="flex justify-center items-center gap-2">
+            <img class="w-6 h-6" src="./assets/activity.png" alt="">
+          <h3 class="text-2xl text-[#00303C]">activity logs</h3>
+          </div>
+          <button class="block mx-auto px-4 py-2 bg-[#3752FD] text-white rounded-xl text-xl mt-4 cursor-pointer">
+            Complete
+          </button>
+          <div class="border-2 border-dashed border-gray-400 mt-5 mb-5"></div>
+        </div>
+      </div>
+    </main>
+    <script src="./js-file/js.js"></script>
+  </body>
+</html>
