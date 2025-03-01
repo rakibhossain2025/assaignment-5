@@ -1,3 +1,3 @@
 document.getElementById("block-page").addEventListener("click", function(){
-  window.location.href ="../block.html";
+  window.location.href ="block.html";
 });
