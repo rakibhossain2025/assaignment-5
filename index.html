@@ -35,7 +35,7 @@
       <div class="flex gap-4 items-center">
         <div class="flex items-center gap-3 bg-[#F4F7FF] py-2 px-4 rounded-4xl">
           <img src="./assets/checkbox.png" alt="" />
-          <h3 class="text-2xl font-bold">23</h3>
+          <h3 id="total-completed" class="text-2xl font-bold">24</h3>
         </div>
         <div id="color-change">
           <img src="./assets/theme-btn.png" alt="" />
@@ -55,7 +55,7 @@
               </div>
               <div>
                 <h4>Task Assigned</h4>
-                <h2 class="text-2xl font-bold">05</h2>
+                <h2 id="number-count" class="text-2xl font-bold">06</h2>
               </div>
             </div>
             <!-- 2nd div  -->
@@ -329,19 +329,19 @@
             <h3 class="text-2xl text-[#00303C]">activity logs</h3>
           </div>
           <button
+          id="clear-history"
             class="block mx-auto px-4 py-2 bg-[#3752FD] text-white disabled rounded-xl text-xl mt-4 cursor-pointer"
           >
             Clear History
           </button>
           <div class="border-2 border-dashed border-gray-400 mt-5 mb-5"></div>
           <div id="history-add" class="p-1 space-y-2">
-            <p class="history hidden"></p>
+            <p id="child" class="history hidden"></p>
           </div>
         </div>
       </div>
     </main>
     <script src="./js-file/index.js"></script>
     <script src="./js-file/function.js"></script>
-    <script src="./js-file/activity.js"></script>
   </body>
 </html>
