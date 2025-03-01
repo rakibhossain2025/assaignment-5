@@ -13,7 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style-file/style.css" class="css">
+    <link rel="stylesheet" href="./style-file/style.css" class="css" />
     <style>
       .poppins-regular {
         font-family: "Poppins", sans-serif;
@@ -37,7 +37,7 @@
           <img src="./assets/checkbox.png" alt="" />
           <h3 id="total-completed" class="text-2xl font-bold">24</h3>
         </div>
-        <div id="color-change">
+        <div id="color-change" class="cursor-pointer">
           <img src="./assets/theme-btn.png" alt="" />
         </div>
       </div>
@@ -72,47 +72,22 @@
             </div>
             <!-- 3rd div  -->
             <div class="bg-[#F4F7FF] flex gap-3 p-4 items-center rounded-2xl">
-              <div class="rounded-full bg-white">
-                <img class="p-3" src="./assets/checkbox.png" alt="" />
+              <div class="rounded-full  bg-white">
+                <img class="p-3" src="./assets/calender.png" alt="" />
               </div>
               <div>
-                <h4>wed ,</h4>
-                <h2 class="text-2xl font-bold">time</h2>
+                <h2 id="dates" class="text-xl "></h2>
               </div>
             </div>
           </div>
           <div class="border-2 border-dashed border-gray-400 mt-5 mb-5"></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
           <!-- tasks -->
           <div class="grid grid-cols-3 gap-3">
             <div class="p-4 bg-[#F4F7FF] rounded-2xl">
               <div class="space-y-3">
                 <h3
-                  class="p-3 text-[#000000ce] rounded-2xl inline-block bg-white text-sm"
+                  class="p-2 text-[#000000ce] rounded-2xl inline-block bg-white text-sm"
                 >
                   ShopEase
                 </h3>
@@ -120,7 +95,7 @@
                   Fix Mobile Button Issue
                 </h4>
                 <textarea
-                id="input1"
+                  id="input1"
                   style="resize: none"
                   placeholder="Debug using Chrome DevTools, ..."
                   class="p-1 text-[#000000ce] text-lg rounded-lg bg-white border w-full border-gray-200 h-20 focus:outline-[#3752FD]"
@@ -137,7 +112,7 @@
                 <div>
                   <button
                     id="complete-btn1"
-                    class="px-4 py-2 bg-[#3752FD] text-white rounded-xl text-md"
+                    class="px-4 cursor-pointer py-2 bg-[#3752FD] text-white rounded-xl text-md"
                   >
                     Complete
                   </button>
@@ -147,15 +122,15 @@
             <div class="p-4 bg-[#F4F7FF] rounded-2xl">
               <div class="space-y-3">
                 <h3
-                  class="p-3 text-[#000000ce] rounded-2xl inline-block bg-white text-sm"
+                  class="p-2 text-[#000000ce] rounded-2xl inline-block bg-white text-sm"
                 >
-                  ShopEase
+                CloudSync
                 </h3>
                 <h4 id="title-2" class="text-2xl text-[#00303C] font-medium">
-                  Fix Mobile Button Issuea ads
+                  Add Dark Mode
                 </h4>
                 <textarea
-                id="input2"
+                  id="input2"
                   style="resize: none"
                   placeholder="Debug using Chrome DevTools, ..."
                   class="p-1 text-[#000000ce] text-lg rounded-lg bg-white border w-full border-gray-200 h-20 focus:outline-[#3752FD]"
@@ -171,8 +146,8 @@
                 </div>
                 <div>
                   <button
-                  id="complete-btn2"
-                    class="px-4 py-2 bg-[#3752FD] text-white rounded-xl text-md"
+                    id="complete-btn2"
+                    class="px-4 cursor-pointer py-2 bg-[#3752FD] text-white rounded-xl text-md"
                   >
                     Complete
                   </button>
@@ -182,15 +157,15 @@
             <div class="p-4 bg-[#F4F7FF] rounded-2xl">
               <div class="space-y-3">
                 <h3
-                  class="p-3 text-[#000000ce] rounded-2xl inline-block bg-white text-sm"
+                  class="p-2 text-[#000000ce] rounded-2xl inline-block bg-white text-sm"
                 >
                   ShopEase
                 </h3>
                 <h4 id="title-3" class="text-2xl text-[#00303C] font-medium">
-                  Fix Mobile Button Issue
+                  Optimize  Home page
                 </h4>
                 <textarea
-                id="input3"
+                  id="input3"
                   style="resize: none"
                   placeholder="Debug using Chrome DevTools, ..."
                   class="p-1 text-[#000000ce] text-lg rounded-lg bg-white border w-full border-gray-200 h-20 focus:outline-[#3752FD]"
@@ -206,8 +181,8 @@
                 </div>
                 <div>
                   <button
-                  id="complete-btn3"
-                    class="px-4 py-2 bg-[#3752FD] text-white rounded-xl text-md"
+                    id="complete-btn3"
+                    class="px-4 py-2 cursor-pointer bg-[#3752FD] text-white rounded-xl text-md"
                   >
                     Complete
                   </button>
@@ -217,15 +192,15 @@
             <div class="p-4 bg-[#F4F7FF] rounded-2xl">
               <div class="space-y-3">
                 <h3
-                  class="p-3 text-[#000000ce] rounded-2xl inline-block bg-white text-sm"
+                  class="p-2 text-[#000000ce] rounded-2xl inline-block bg-white text-sm"
                 >
-                  ShopEase
+                  Meta
                 </h3>
                 <h4 id="title-4" class="text-2xl text-[#00303C] font-medium">
-                  Fix Mobile Button Issue
+                  Add new emoji 🤲
                 </h4>
                 <textarea
-                id="input4"
+                  id="input4"
                   style="resize: none"
                   placeholder="Debug using Chrome DevTools, ..."
                   class="p-1 text-[#000000ce] text-lg rounded-lg bg-white border w-full border-gray-200 h-20 focus:outline-[#3752FD]"
@@ -241,8 +216,8 @@
                 </div>
                 <div>
                   <button
-                  id="complete-btn4"
-                    class="px-4 py-2 bg-[#3752FD] text-white rounded-xl text-md"
+                    id="complete-btn4"
+                    class="px-4 py-2 bg-[#3752FD] text-white rounded-xl text-md cursor-pointer"
                   >
                     Complete
                   </button>
@@ -252,15 +227,15 @@
             <div class="p-4 bg-[#F4F7FF] rounded-2xl">
               <div class="space-y-3">
                 <h3
-                  class="p-3 text-[#000000ce] rounded-2xl inline-block bg-white text-sm"
+                  class="p-2 text-[#000000ce] rounded-2xl inline-block bg-white text-sm"
                 >
-                  ShopEase
+                  GoogleLLC
                 </h3>
                 <h4 id="title-5" class="text-2xl text-[#00303C] font-medium">
-                  Fix Mobile Button Issue
+                  Integrate OpenAI API 
                 </h4>
                 <textarea
-                id="input5"
+                  id="input5"
                   style="resize: none"
                   placeholder="Debug using Chrome DevTools, ..."
                   class="p-1 text-[#000000ce] text-lg rounded-lg bg-white border w-full border-gray-200 h-20 focus:outline-[#3752FD]"
@@ -276,8 +251,8 @@
                 </div>
                 <div>
                   <button
-                  id="complete-btn5"
-                    class="px-4 py-2 bg-[#3752FD] text-white rounded-xl text-md"
+                    id="complete-btn5"
+                    class="px-4 py-2 bg-[#3752FD] text-white rounded-xl text-md cursor-pointer"
                   >
                     Complete
                   </button>
@@ -287,15 +262,15 @@
             <div class="p-4 bg-[#F4F7FF] rounded-2xl">
               <div class="space-y-3">
                 <h3
-                  class="p-3 text-[#000000ce] rounded-2xl inline-block bg-white text-sm"
+                  class="p-2 text-[#000000ce] rounded-2xl inline-block bg-white text-sm"
                 >
-                  ShopEase
+                Glassdoar
                 </h3>
                 <h4 id="title-6" class="text-2xl text-[#00303C] font-medium">
-                  Fix Mobile Button Issue
+                  Improve Job searching 
                 </h4>
                 <textarea
-                id="input6"
+                  id="input6"
                   style="resize: none"
                   placeholder="Debug using Chrome DevTools, ..."
                   class="p-1 text-[#000000ce] text-lg rounded-lg bg-white border w-full border-gray-200 h-20 focus:outline-[#3752FD]"
@@ -311,8 +286,8 @@
                 </div>
                 <div>
                   <button
-                  id="complete-btn6"
-                    class="px-4 py-2 bg-[#3752FD] text-white rounded-xl text-md"
+                    id="complete-btn6"
+                    class="px-4 py-2 bg-[#3752FD] text-white rounded-xl text-md cursor-pointer"
                   >
                     Complete
                   </button>
@@ -329,7 +304,7 @@
             <h3 class="text-2xl text-[#00303C]">activity logs</h3>
           </div>
           <button
-          id="clear-history"
+            id="clear-history"
             class="block mx-auto px-4 py-2 bg-[#3752FD] text-white disabled rounded-xl text-xl mt-4 cursor-pointer"
           >
             Clear History
