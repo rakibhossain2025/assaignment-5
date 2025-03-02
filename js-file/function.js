@@ -8,11 +8,16 @@ let DynamicDate = new Date().toLocaleDateString("en-US", {
 dates.innerText = DynamicDate;
 
 const backgroundColorList = [
-  "rgb(140, 237, 166)",
-  "rgb(146, 140, 237)",
-  "rgb(237, 180, 140)",
-  "rgb(205, 140, 237)",
-  "rgb(241, 98, 98)",
+   '#ff5733',
+   '#eab52a',
+   '#d6ea2a',
+   '#ea2a2a',
+   '#96ea2a',
+   '#076203',
+   '#0cb872',
+   '#44e6df',
+   '#156ade',
+   '#a115de',
 ];
 let i = 0;
 const bgChangeBtn = document
@@ -49,7 +54,7 @@ function functionClick(btn, boxTitle, inputField) {
   });
 
   let h = document.createElement("p");
-  h.innerText = `You have completed the task: ${text} at ${dynamicTime}`;
+  h.innerText = `You have completed the task ${text} at ${dynamicTime}`;
   history.appendChild(h);
   h.classList.add("history");
 
